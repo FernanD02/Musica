@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Arbol_2_data" version="1.3.0" audacityversion="2.3.0" sel0="3.6137841822" sel1="3.6137841822" vpos="0" h="2.8648999443" zoom="658.3126938647" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Software" value="Adobe Audition CC 2017.0 (Macintosh)"/>
+		<tag name="YEAR" value="2019-05-21T11:27:40-05:00"/>
+	</tags>
+	<wavetrack name="Foleys" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.584893" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="234999">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808dc4.au" len="234999" min="-0.666384" max="0.680668" rms="0.019526"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Foleys" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.584893" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="234999">
+				<waveblock start="0">
+					<simpleblockfile filename="e08087f9.au" len="234999" min="-0.659289" max="0.66864" rms="0.01915"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

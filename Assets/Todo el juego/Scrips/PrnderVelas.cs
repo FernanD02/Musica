@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PrnderVelas : MonoBehaviour {
+public class PrnderVelas : MonoBehaviour
+{
 
+    public GameObject[] fireSound;
     public GameObject Texto;
     public GameObject Fire;
     public GameObject Candelarios;
@@ -113,6 +115,8 @@ public class PrnderVelas : MonoBehaviour {
 
         if (Input.GetButtonUp("Jump") && inTrigger1 == true && vel1 == false)
         {
+            Debug.Log("effecto");
+            fireSound[0].SetActive(true);
             Instantiate(Fire, Vela1.position, Vela1.rotation);
             vel1 = true;
             numVelasPren += 1;
@@ -120,6 +124,7 @@ public class PrnderVelas : MonoBehaviour {
 
         if (Input.GetButtonUp("Jump") && inTrigger2 == true && vel2 == false)
         {
+            fireSound[1].SetActive(true);
             Instantiate(Fire, Vela2.position, Vela2.rotation);
             vel2 = true;
             numVelasPren += 1;
@@ -127,6 +132,7 @@ public class PrnderVelas : MonoBehaviour {
 
         if (Input.GetButtonUp("Jump") && inTrigger3 == true && vel3 == false)
         {
+            fireSound[2].SetActive(true);
             Instantiate(Fire, Vela3.position, Vela3.rotation);
             vel3 = true;
             numVelasPren += 1;
@@ -134,6 +140,7 @@ public class PrnderVelas : MonoBehaviour {
 
         if (Input.GetButtonUp("Jump") && inTrigger4 == true && vel4 == false)
         {
+            fireSound[3].SetActive(true);
             Instantiate(Fire, Vela4.position, Vela4.rotation);
             vel4 = true;
             numVelasPren += 1;
@@ -141,6 +148,7 @@ public class PrnderVelas : MonoBehaviour {
 
         if (Input.GetButtonUp("Jump") && inTrigger5 == true && vel5 == false)
         {
+            fireSound[4].SetActive(true);
             Instantiate(Fire, Vela5.position, Vela5.rotation);
             vel5 = true;
             numVelasPren += 1;
